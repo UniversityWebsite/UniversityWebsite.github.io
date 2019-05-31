@@ -1,0 +1,338 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin:0;
+}
+
+/*dropdown menu color*/
+.navbar {
+  overflow: hidden;
+  background-color: #085f63;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Home Button Word*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*drop down menu position*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #49beb7;
+}
+
+/*drop down color*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #49beb7;
+  min-width: ;
+  box-shadow: 0px 0px 1000px 1000px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*dropdown menu words color*/
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* dropdown menu hover color*/
+.dropdown-content a:hover {
+  background-color: #f5e1da;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ table, th, td {
+  border: 0px solid white;
+  border-collapse: collapse;
+}
+  th, td {
+  padding: 10px;
+}
+#schoolinfo{
+  border: 1px solid black;
+  }
+#schoolinfo td{
+    border: 1px solid black;
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #FFDBCD;
+  padding: 5px;
+}
+box-sizing: border-box;
+}
+
+/*outside of the table border*/
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #FFDBCD;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+/*The line*/
+#myTable tr {
+  border-bottom: 1px solid #FDC8B3;
+}
+
+/*Top of the Table*/
+#myTable tr.header, #myTable tr:hover {
+  background-color: #FDC8B3;
+}
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #f6f6f6;
+}
+
+/* Style the footer */
+footer {
+  background-color: #49beb7;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+    #link a { 
+      padding:15px; 
+      font-weight:bold; 
+      float:left; 
+    }
+    #link a:link { 
+      color:#d0d0d0; 
+      background-color:#0000a0; 
+    }
+    #link a:visited {
+     color:#c0c0c0;
+     background-color:#0000a0; 
+ }
+    #link a:hover {
+     color:#ffffff;
+     background-color:#000060; 
+ }
+    #link a:active {
+     color:#f0f0f0; 
+     background-color:#00ff00; 
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Top Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="MIT.html">MIT</a>
+      <a href="Stanford.html">Stanford University</a>
+      <a href="Harvard.html">Harvard University</a>
+      <a href="Caltech.html">Caltech University</a>
+      <a href="Oxford.html">Oxford University</a>
+      <a href="Cambridge.html">Cambridge</a>
+      <a href="ETH.html">ETH Zurich</a>
+      <a href="Imperial.html">Imperial College London</a>
+      <a href="Chicago.html">University of Chicago</a>
+      <a href="UCL.html">UCL University</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Popular Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+   
+    <div class="dropdown-content">
+      <a href="Cornell.html">Cornell University</a>
+      <a href="Duke.html">Duke University</a>
+    </div>
+  </div>
+
+   <a href="Universities Website.html">Home</a>
+
+<div class="dropdown">
+    <button class="dropbtn">Environment 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="http://www.walkscore.com"target="_blank">Walkscore</a>
+      <a href="https://www.opentable.com/"target="_blank">Opentable</a>
+      <a href="https://www.uniplaces.com/"target="_blank">Uniplaces</a>
+      <a href="https://www.tripadvisor.com.tw/"target="_blank">Tripadvisor</a>
+      <a href="https://www.collegestudentapartments.com/"target="_blank">College Apartment</a>
+      <a href="https://www.spotahome.com/for-rent/london/university-college-london-ucl-student-apartments"target="_blank">England Apartment</a>
+      <a href="https://www.nestpick.com/"target="_blank">Furnished Apartment</a>
+
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Test 
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content">
+      <a href="SAT.html">SAT</a>
+      <a href="ACT.html">ACT</a>
+      <a href="GPA.html">GPA</a>
+    </div>
+  </div>
+</div>
+</Style>
+
+
+<article>
+<HEAD>
+  <TITLE>ACT
+  </TITLE>
+</HEAD>
+<BODY>
+
+<IMG src='ACT.jpg'width='32.5%px' align='left'>
+<TABLE border=0 bgcolor= #FDEBB3>
+  <TR>
+    <TD> 
+<SPAN style="color:#000000;font-family:'big caslon';font-size:31px;">ACT
+<BR>
+<SPAN style="color:#000000;font-family:'bodoni 72 oldstyle';font-size:19.7px;">The ACT (originally an abbreviation of American College Testing) is a standardized test used for college admissions in the United States. It was first introduced in November 1959 by University of Iowa professor Everett Franklin Lindquist as a competitor to the Scholastic Aptitude Test (SAT). It is currently administered by ACT, a nonprofit organization of the same name.
+
+The ACT originally consisted of four tests: English, Mathematics, Social Studies, and Natural Sciences. In 1989, however, the Social Studies test was changed into a Reading section (which included a social sciences subsection), and the Natural Sciences test was renamed the Science Reasoning test, with more emphasis on problem-solving skills as opposed to memorizing scientific facts. In February 2005, an optional Writing Test was added to the ACT, mirroring changes to the SAT that took place in March of the same year. In 2013, ACT announced that students would be able to take the ACT by computer starting in the spring of 2015; however, by the fall of 2017, computer-based ACT tests were available only for school-day testing in limited school districts in the US, with greater availability not expected until at least the fall of 2018.
+
+The ACT has seen a gradual increase in the number of test takers since its inception, and in 2011 the ACT surpassed the SAT for the first time in total test takers; that year, 1,666,017 students took the ACT and 1,664,479 students took the SAT. All four-year colleges and universities in the U.S. accept the ACT, but different institutions place different emphases on standardized tests such as the ACT, compared to other factors including class rank, GPA, and extracurricular activities.
+
+The main four sections are individually scored on a scale of 1–36, and a composite score (the rounded whole number average of the four sections) is provided.</SPAN>
+    </TD>
+  </TR>
+  <TR>
+    <TD>
+      <IMG src='yellow.jpg' width='50px' height='4px'>
+    </TD>
+  </TR>
+</TABLE>
+<table id="myTable">
+  <tr class="header">
+    <th style="width:10%;"><Span style= "font-family: 'arial'; font-size: 20px">More Information</Span></th>
+    <th style="width:10%;"></th>
+  </tr>
+  <tr>
+    <td><LI><A href='https://blog.prepscholar.com/how-to-get-a-4-0-gpa-and-get-better-grades-by-a-harvard-alum'target="_blank" style="color: #6A8DB6;"><Span style= "font-family: 'Chaparral pro'; font-size: 19px">Perfect Score of ACT</Span></A></LI></td>
+    <td><LI><A href='https://www.prepscholar.com/sat/l/tour_sat_guide'target="_blank" style="color: #6A8DB6;"><Span style= "font-family: 'Chaparral pro'; font-size: 19px">5 Ways to Improve SAT</Span></A></LI></td>
+  </tr>
+</table>
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<TABLE border=0 bgcolor= #FDEBB3>
+  <TR>
+    <TD colspan="2"> 
+      <SPAN style="color:#000000;font-family:'Arial';font-size:28px;">Bibliography</SPAN>
+        <BR>
+    </TD>
+  </TR>
+  <TR>
+    <TD>
+      <IMG src='yellow.jpg' width='15px' height='18px'>
+    </TD>
+    <TD>
+      <LI><SPAN style="color:#000000;font-family:'Arial';font-size:17px;">Alt, H. (2019). Free ACT for juniors. The Budget. Retrieved 28 May 2019, from https://lhsbudget.com/news/2018/10/24/free-act-for-juniors/ </SPAN></LI>
+    </TD>
+  <TR>
+    <TD>
+      <iMG src='yellow.jpg' width='15px' height='18px'>
+    </TD>
+    <TD>
+      <LI><SPAN style="color:#000000;font-family:'Arial';font-size:17px;">ACT (test). (2016). En.wikipedia.org. Retrieved 29 May 2019, from https://en.wikipedia.org/wiki/ACT_(test) </SPAN></LI>
+    </TD>
+    <TD>
+      <IMG src='yellow.jpg' width='215px' height='17px'>
+    </TD>
+  </TR>
+</TABLE>
+
+<footer>
+      <P><IMG src= 'Logo.png' width= 80px>
+      <P><Span style= "font-family : 'Love Story Rough'; font-size: 45px ">Thank you for using our website!!</Span>
+      <P><Span style= "font-family : 'Noteworthy'; font-size: 20px ">By: Dora and Radika</Span>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin:0;
+}
+
+/*dropdown menu color*/
+.navbar {
+  overflow: hidden;
+  background-color: #085f63;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Home Button Word*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*drop down menu position*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #49beb7;
+}
+
+/*drop down color*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #49beb7;
+  min-width: ;
+  box-shadow: 0px 0px 1000px 1000px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*dropdown menu words color*/
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* dropdown menu hover color*/
+.dropdown-content a:hover {
+  background-color: #f5e1da;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ table, th, td {
+  border: 0px solid white;
+  border-collapse: collapse;
+}
+  th, td {
+  padding: 10px;
+}
+#schoolinfo{
+	border: 1px solid black;
+	}
+#schoolinfo td{
+		border: 1px solid black;
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #FFDBCD;
+  padding: 5px;
+}
+box-sizing: border-box;
+}
+
+/*outside of the table border*/
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #FFDBCD;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+/*The line*/
+#myTable tr {
+  border-bottom: 1px solid #FDC8B3;
+}
+
+/*Top of the Table*/
+#myTable tr.header, #myTable tr:hover {
+  background-color: #FDC8B3;
+}
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #f6f6f6;
+}
+
+/* Style the footer */
+footer {
+  background-color: #49beb7;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+    #link a { 
+    	padding:15px; 
+    	font-weight:bold; 
+    	float:left; 
+    }
+    #link a:link { 
+    	color:#d0d0d0; 
+    	background-color:#0000a0; 
+    }
+    #link a:visited {
+     color:#c0c0c0;
+     background-color:#0000a0; 
+ }
+    #link a:hover {
+     color:#ffffff;
+     background-color:#000060; 
+ }
+    #link a:active {
+     color:#f0f0f0; 
+     background-color:#00ff00; 
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Top Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="MIT.html">MIT</a>
+      <a href="Stanford.html">Stanford University</a>
+      <a href="Harvard.html">Harvard University</a>
+      <a href="Caltech.html">Caltech University</a>
+      <a href="Oxford.html">Oxford University</a>
+      <a href="Cambridge.html">Cambridge</a>
+      <a href="ETH.html">ETH Zurich</a>
+      <a href="Imperial.html">Imperial College London</a>
+      <a href="Chicago.html">University of Chicago</a>
+      <a href="UCL.html">UCL University</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Popular Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+   
+    <div class="dropdown-content">
+      <a href="Cornell.html">Cornell University</a>
+      <a href="Duke.html">Duke University</a>
+    </div>
+  </div>
+
+   <a href="Universities Website.html">Home</a>
+
+<div class="dropdown">
+    <button class="dropbtn">Environment 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="http://www.walkscore.com"target="_blank">Walkscore</a>
+      <a href="https://www.opentable.com/"target="_blank">Opentable</a>
+      <a href="https://www.uniplaces.com/"target="_blank">Uniplaces</a>
+      <a href="https://www.tripadvisor.com.tw/"target="_blank">Tripadvisor</a>
+      <a href="https://www.collegestudentapartments.com/"target="_blank">College Apartment</a>
+      <a href="https://www.spotahome.com/for-rent/london/university-college-london-ucl-student-apartments"target="_blank">England Apartment</a>
+      <a href="https://www.nestpick.com/"target="_blank">Furnished Apartment</a>
+
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Test 
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content">
+      <a href="SAT.html">SAT</a>
+      <a href="ACT.html">ACT</a>
+      <a href="GPA.html">GPA</a>
+    </div>
+  </div>
+</div>
+</Style>
+
+
+<article>
+<HEAD>
+	<TITLE>SAT
+	</TITLE>
+</HEAD>
+<BODY>
+
+<IMG src='SAT.jpg'width='32.5%' align='left'>
+<TABLE border=0 bgcolor= #FDEBB3>
+	<TR>
+		<TD> 
+<SPAN style="color:#000000;font-family:'big caslon';font-size:31px;">SAT
+<BR>
+<SPAN style="color:#000000;font-family:'bodoni 72 oldstyle';font-size:19.7px;">The SAT is a standardized test widely used for college admissions in the United States. Since it was debuted by the College Board in 1926, its name and scoring have changed several times; originally called the Scholastic Aptitude Test, it was later called the Scholastic Assessment Test, then the SAT I: Reasoning Test, then the SAT Reasoning Test, then simply the SAT.
+
+The SAT is wholly owned, developed, and published by the College Board, a private, non-profit organization in the United States. It is administered on behalf of the College Board by the Educational Testing Service, which until recently developed the SAT as well. The test is intended to assess students' readiness for college. The SAT was originally designed not to be aligned with high school curricula, but several adjustments were made for the version of the SAT introduced in 2016, and College Board president, David Coleman, has said that he also wanted to make the test reflect more closely what students learn in high school with the new Common Core standards.
+
+On March 5, 2014, the College Board announced that a redesigned version of the SAT would be administered for the first time in 2016. The current SAT, introduced in 2016, takes three hours to finish, plus 50 minutes for the SAT with essay, and as of 2017 costs US$45 (US$57 with the optional essay), excluding late fees, with additional processing fees if the SAT is taken outside the United States. Scores on the SAT range from 400 to 1600, combining test results from two 800-point sections: mathematics, and critical reading and writing. Although taking the SAT, or its competitor the ACT, is required for freshman entry to many colleges and universities in the United States many colleges and universities are experimenting with test-optional admission requirements and alternatives to the SAT and ACT. Starting with the 2015–16 school year, the College Board began working with Khan Academy to provide free SAT preparation.</SPAN>
+		</TD>
+		
+	</TR>
+</TABLE>
+<table id="myTable">
+  <tr class="header">
+    <th style="width:10%;"><Span style= "font-family: 'arial'; font-size: 20px">More Information</Span></th>
+    <th style="width:10%;"></th>
+  </tr>
+  <tr>
+    <td><LI><A href='https://blog.prepscholar.com/how-to-get-a-perfect-sat-score-by-a-2400-sat-scorer'target="_blank" style="color: #6A8DB6;"><Span style= "font-family: 'Chaparral pro'; font-size: 19px">Perfect Score of SAT</Span></A></LI></td>
+    <td><LI><A href='https://www.prepscholar.com/sat/l/tour_sat_guide'target="_blank" style="color: #6A8DB6;"><Span style= "font-family: 'Chaparral pro'; font-size: 19px">5 Ways to Improve SAT</Span></A></LI></td>
+  </tr>
+</table>
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<TABLE border=0 bgcolor= #FDEBB3>
+	<TR>
+		<TD colspan="2"> 
+			<SPAN style="color:#000000;font-family:'Arial';font-size:28px;">Bibliography</SPAN>
+				<BR>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG src='yellow.jpg' width='15px' height='18px'>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:17px;">The SAT Program (@OfficialSAT) on Twitter. (2019). Twitter.com. Retrieved 28 May 2019, from https://twitter.com/officialsat</SPAN></LI>
+		</TD>
+	<TR>
+		<TD>
+			<iMG src='yellow.jpg' width='15px' height='18px'>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:17px;">SAT. (2019). En.wikipedia.org. Retrieved 28 May 2019, from https://en.wikipedia.org/wiki/SAT</SPAN></LI>
+		</TD>
+		<TD>
+			<IMG src='yellow.jpg' width='327px' height='17px'>
+		</TD>
+	</TR>
+</TABLE>
+
+<footer>
+      <P><IMG src= 'Logo.png' width= 80px>
+      <P><Span style= "font-family : 'Love Story Rough'; font-size: 45px ">Thank you for using our website!!</Span>
+      <P><Span style= "font-family : 'Noteworthy'; font-size: 20px ">By: Dora and Radika</Span>
+</footer>
+
+</body>
+</html>

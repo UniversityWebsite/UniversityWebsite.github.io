@@ -1,0 +1,505 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin:0;
+}
+
+/*dropdown menu color*/
+.navbar {
+  overflow: hidden;
+  background-color: #085f63;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Home Button Word*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*drop down menu position*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #49beb7;
+}
+
+/*drop down color*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #49beb7;
+  min-width: ;
+  box-shadow: 0px 0px 1000px 1000px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*dropdown menu words color*/
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* dropdown menu hover color*/
+.dropdown-content a:hover {
+  background-color: #f5e1da;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ table, th, td {
+  border: 0px solid white;
+  border-collapse: collapse;
+}
+  th, td {
+  padding: 10px;
+}
+#schoolinfo{
+	border: 1px solid black;
+	}
+#schoolinfo td{
+		border: 1px solid black;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #FFDBCD;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+/*The line*/
+#myTable tr {
+  border-bottom: 1px solid #FDC8B3;
+}
+
+/*Top of the Table*/
+#myTable tr.header, #myTable tr:hover {
+  background-color: #FDC8B3;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #f6f6f6;
+}
+
+#pic {
+	position:absolute;
+	top:172%;
+	left:53%;
+	width: 38%;
+	border: white solid 8px;
+} 
+
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #FFDBCD;
+  padding: 5px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #49beb7;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Top Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">MIT</a>
+      <a href="Stanfordf.html">Stanford University</a>
+      <a href="#">Harvard University</a>
+      <a href="#">Caltech University</a>
+      <a href="#">Oxford University</a>
+      <a href="#">Cambridge</a>
+      <a href="ETH Zurich (Swiss Federal Institute of Technology).html">ETH Zurich</a>
+      <a href="Imperial College London.html">Imperial College London</a>
+      <a href="University of Chicago.html">University of Chicago</a>
+      <a href="UCL.html">UCL University</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Popular Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+   
+    <div class="dropdown-content">
+      <a href="#">Cornell University</a>
+      <a href="Duke.html">Duke University</a>
+    </div>
+  </div>
+
+   <a href="#home">Home</a>
+
+<div class="dropdown">
+    <button class="dropbtn">Environment 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="http://www.walkscore.com"target="_blank">Walkscore</a>
+      <a href="https://www.opentable.com/"target="_blank">Opentable</a>
+      <a href="https://www.uniplaces.com/"target="_blank">Uniplaces</a>
+      <a href="https://www.tripadvisor.com.tw/"target="_blank">Tripadvisor</a>
+      <a href="https://www.collegestudentapartments.com/"target="_blank">College Apartment</a>
+      <a href="https://www.spotahome.com/for-rent/london/university-college-london-ucl-student-apartments"target="_blank">England Apartment</a>
+      <a href="https://www.nestpick.com/"target="_blank">Furnished Apartment</a>
+
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Test 
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content">
+      <a href="#">SAT</a>
+      <a href="#">ACT</a>
+      <a href="#">GPA</a>
+    </div>
+  </div>
+</div>
+</Style>
+
+
+<article>
+<HEAD>
+	<TITLE>UCL University
+	</TITLE>
+</HEAD>
+<BODY>
+<center><IMG src='UCL1.jpg'width='100%'></IMG></center>
+
+<TABLE border=0 bgcolor= #FDEBB3>
+	<TR>
+		<TD>
+<SPAN style="color:#000000;font-family:'Arial';font-size:30px;">UCL University
+<BR>
+<SPAN style="color:#000000;font-family:'Arial';font-size:18px;">UCL university is the top 10 school in the world, UCL is as know as London's leading multidisciplinary university, this university is in west of the London, this university is the first university in England to admit women students on equal terms with men, there are students from 150 countries study at UCL, making up more than one-third of the student body.</SPAN>
+		</TD>
+		
+	</TR>
+</TABLE>
+<table id="myTable">
+  <tr class="header">
+    <th style="width:10%;">School Subjects(Division)</th>
+    <th style="width:10%;"></th>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Architecture, Construction, and Planning</SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Arts and Sciences</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Biological and Life Sciences<SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Business and Management Studies</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Computer Science</SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Economics, Politics and Social Sciences
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Education</SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Engineering</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">English and Comparative Literature</SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Fine Art and Art History</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Historical and Philosophical </SPAN></LI>Studies
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Languages and Cultural Studies</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Law</SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Mathematics and Statistics</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Medicine and Allied Subjects</SPAN></LI>
+		</TD>
+		<TD>
+			<LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Physical Sciences</SPAN></LI>
+		</TD>
+	</TR>
+	<TR>
+		<TD><LI><SPAN style="color:#000000;font-family:'Arial';font-size:20px;">Psychology and Language Sciences</SPAN></LI>
+		</TD>
+		<TD><P></P></TD>
+	</TR>
+
+		
+</SPAN>
+</TABLE>
+
+
+<BR></BR>
+<SPAN style="color:#000000;font-family:'Daskerville';font-size:30px;">Tuition and Expenses</SPAN>
+
+<BR></BR>
+<TABLE id='schoolinfo' border=1 style="width:50%">
+	<TR>
+		<TD>
+			EXPENSE
+		</TD>
+		<TD>
+			COST
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			Per Week
+		</TD>
+		<TD> </TD>
+	</TR>
+	<TR>
+		<TD>
+			Travel
+		</TD>
+		<TD>
+			£35.10
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			Food
+		</TD>
+		<TD>
+			£85
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			Personal
+		</TD>
+		<TD>		
+			£90
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			Course Materials
+		</TD>
+		<TD>
+			£20
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			Computing supplies (laptop/printer etc)
+		</TD>
+		<TD>
+			£10
+		</TD>
+	</TR>
+	<TR>
+		<TD>			
+			Per Year
+		</TD>
+		<TD> </TD>
+	</TR>
+	<TR>
+		<TD>
+			International Flights (return tickets x 2)
+		</TD>
+		<TD>
+			£1750
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			Visa Fees
+		</TD>
+		<TD>
+			£348	
+		</TD>
+	</TR>
+</TABLE>
+
+<TABLE id='schoolinfo' border=1 style="width:50%">
+	<TR>
+	<TD width=25%>
+		Section
+	</TD>
+	<TD width=25%>
+		Average
+	</TD>
+	<TD width=25%>
+		25th Percentile
+	</TD>
+	<TD width=25%>
+		75th Percentile
+	</TD>
+</TR>
+<TR>
+	<TD>
+		Math
+	</TD>
+	<TD>
+		N/A
+	</TD>
+	<TD>
+		N/A
+	</TD>
+	<TD>
+		N/A
+	</TD>
+</TR>
+<TR>
+	<TD>
+		Reading
+	</TD>
+	<TD>
+		N/A
+	</TD>
+	<TD>
+		N/A
+	</TD>
+	<TD>
+		N/A
+	</TD>
+</TR>
+<BR></BR>
+<TR>
+	<TD>
+		Composite
+	</TD>
+	<TD>
+		N/A
+	</TD>
+	<TD>
+		N/A
+	</TD>
+	<TD>
+		N/A
+	</TD>
+</TR>
+</TABLE>
+
+<IMG id=pic src='UCL.jpg'></IMG>
+
+
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myUL");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<BR></BR>
+
+<footer>
+      <P><IMG src= 'Logo.png' width= 80px>
+      <P><Span style= "font-family : 'Love Story Rough'; font-size: 45px ">Thank you for using our website!!</Span>
+      <P><Span style= "font-family : 'Noteworthy'; font-size: 20px ">By: Dora and Radika</Span>
+      </P>
+
+</footer>
+
+</body>
+</html>

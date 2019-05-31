@@ -1,0 +1,443 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin:0;
+}
+
+/*dropdown menu color*/
+.navbar {
+  overflow: hidden;
+  background-color: #085f63;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Home Button Word*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*drop down menu position*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #49beb7;
+}
+
+/*drop down color*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #49beb7;
+  min-width: ;
+  box-shadow: 0px 0px 1000px 1000px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*dropdown menu words color*/
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* dropdown menu hover color*/
+.dropdown-content a:hover {
+  background-color: #f5e1da;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#Caltech{
+  top:122%;
+  left:50.5%;
+  position:absolute;
+}
+ table, th, td {
+  border: 0px solid white;
+  border-collapse: collapse;
+}
+  th, td {
+  padding: 10px;
+}
+#schoolinfo{
+	border: 1px solid black;
+	}
+#schoolinfo td{
+		border: 1px solid black;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #FFDBCD;
+  padding: 5px;
+}
+box-sizing: border-box;
+}
+
+/*outside of the table border*/
+#myTable {
+  border-collapse: collapse;
+  width: 60%;
+  border: 1px solid #FFDBCD;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+/*The line*/
+#myTable tr {
+  border-bottom: 1px solid #FDC8B3;
+}
+
+/*Top of the Table*/
+#myTable tr.header, #myTable tr:hover {
+  background-color: #FDC8B3;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #f6f6f6;
+}
+
+/* Style the footer */
+footer {
+  background-color: #49beb7;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Top Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="MIT.html">MIT</a>
+      <a href="Stanford.html">Stanford University</a>
+      <a href="Harvard.html">Harvard University</a>
+      <a href="Caltech.html">Caltech University</a>
+      <a href="Oxford.html">Oxford University</a>
+      <a href="Cambridge.html">Cambridge</a>
+      <a href="ETH.html">ETH Zurich</a>
+      <a href="Imperial.html">Imperial College London</a>
+      <a href="Chicago.html">University of Chicago</a>
+      <a href="UCL.html">UCL University</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Popular Universities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+   
+    <div class="dropdown-content">
+      <a href="Cornell.html">Cornell University</a>
+      <a href="Duke.html">Duke University</a>
+    </div>
+  </div>
+
+   <a href="Universities Website.html">Home</a>
+
+<div class="dropdown">
+    <button class="dropbtn">Environment 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="http://www.walkscore.com"target="_blank">Walkscore</a>
+      <a href="https://www.opentable.com/"target="_blank">Opentable</a>
+      <a href="https://www.uniplaces.com/"target="_blank">Uniplaces</a>
+      <a href="https://www.tripadvisor.com.tw/"target="_blank">Tripadvisor</a>
+      <a href="https://www.collegestudentapartments.com/"target="_blank">College Apartment</a>
+      <a href="https://www.spotahome.com/for-rent/london/university-college-london-ucl-student-apartments"target="_blank">England Apartment</a>
+      <a href="https://www.nestpick.com/"target="_blank">Furnished Apartment</a>
+
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Test 
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content">
+      <a href="SAT.html">SAT</a>
+      <a href="ACT.html">ACT</a>
+      <a href="GPA.html">GPA</a>
+    </div>
+  </div>
+</div>
+</Style>
+
+
+<article>
+<HEAD>
+	<TITLE>Caltech University
+	</TITLE>
+</HEAD>
+<BODY>
+<center><IMG src='Caltech4.jpg'width='100%'></IMG></center>
+
+<TABLE border=0 bgcolor= #FDEBB3>
+	<TR>
+		<TD>
+<SPAN style="color:#000000;font-family:'Arial';font-size:30px;">Caltech
+<BR>
+<SPAN style="color:#000000;font-family:'Arial';font-size:18px;">The California Institute of Technology (Caltech) is a private doctorate-granting research university in Pasadena, California. Known for its strength in natural science and engineering, Caltech is often ranked as one of the world's top-ten universities.</SPAN>
+		</TD>
+		
+	</TR>
+</TABLE>
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:10%;">School Subjects(Division)</th>
+    <th style="width:10%;"></th>
+  </tr>
+  <tr>
+    <td><LI>Biology and Biological Engineering</LI></td>
+    <td><LI>Chemistry and Chemical Engineering</LI></td>
+  </tr>
+  <tr>
+    <td><LI>Engineering and Applied science</LI></td>
+    <td><LI>Geological & Planetary Sciences</LI></td>
+  </tr>
+  <tr>
+    <td><LI>The Humanities & Social Sciences</LI></td>
+    <td><LI>Physics, Mathematics & Astronomy</LI></td>
+  </tr>
+</table>
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<IMG src='Caltech2.jpg' id='Caltech' width='48.5%'>
+<BR></BR>
+<SPAN style="color:#000000;font-family:'Daskerville';font-size:30px;">Tuition and Expenses</SPAN>
+
+<BR></BR>
+<TABLE id='schoolinfo' border=1 style="width:50%">
+	<TR>
+		<TD>
+			Tuition and Expenses
+		</TD>
+		<TD>
+			$41,538
+		</TD>
+	</TR>
+	<TR>
+		<TD width="60%">
+			Room
+		</TD>
+		<TD width="30%">
+			$7,035
+		</TD>
+
+
+	</TR>
+	<TR>
+		<TD width="60%">
+			Board
+		</TD>
+		<TD width="30%">
+			$5,472
+		</TD>
+
+
+	</TR>
+	<TR>
+		<TD width="60%">
+			Textbooks
+		</TD>
+		<TD width="30%">
+			$1,323
+		</TD>
+
+	</TR>
+	<TR>
+		<TD width="60%">
+			Other Expenses    
+		</TD>
+		<TD width="30%">
+			$3,387
+		</TD>
+
+	</TR>
+	<TR>
+		<TD width="60%">
+			<B>Typical Total Cost for On-Campus Students</B>
+		</TD>
+		<TD width="30%">
+			<B>$58,755</B>
+		</TD>
+	</TR>
+	<TR>
+		<TD width="60%">
+			<B>Typical Total Cost for Off-Campus Students</B>
+		</TD>
+		<TD width="30%">
+			<B>$58,296</B>
+		</TD>
+	</TR>
+</TABLE>
+
+
+<BR></BR>
+
+
+<TABLE id='schoolinfo' border=1 style="width:50%">
+	<TR>
+	<TD width=25%>
+		Section
+	</TD>
+	<TD width=25%>
+		Average
+	</TD>
+	<TD width=25%>
+		25th Percentile
+	</TD>
+	<TD width=25%>
+		75th Percentile
+	</TD>
+</TR>
+<TR>
+	<TD>
+		Math
+	</TD>
+	<TD>
+		790
+	</TD>
+	<TD>
+		780
+	</TD>
+	<TD>
+		800
+	</TD>
+</TR>
+<TR>
+	<TD>
+		Reading
+	</TD>
+	<TD>
+		770
+	</TD>
+	<TD>
+		750
+	</TD>
+	<TD>
+		790
+	</TD>
+</TR>
+<TR>
+	<TD>
+		Composite
+	</TD>
+	<TD>
+		1560
+	</TD>
+	<TD>
+		1530
+	</TD>
+	<TD>
+		1590
+	</TD>
+</TR>
+</TABLE>
+
+<BR></BR>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+<footer>
+      <P><IMG src= 'Logo.png' width= 80px>
+      <P><Span style= "font-family : 'Love Story Rough'; font-size: 45px ">Thank you for using our website!!</Span>
+      <P><Span style= "font-family : 'Noteworthy'; font-size: 20px ">By: Dora and Radika</Span>
+</footer>
+
+</body>
+</html>
